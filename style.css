@@ -44,6 +44,19 @@ nav{
     width: 85%;
     overflow: auto;
   }
+
+  .shop-items {
+    overflow: hidden;
+  }
+  .shop-items ::-webkit-scrollbar{
+    display: none;
+  }
+  .shop-items img{
+    transition: scale 0.5s;
+  }
+  .shop-items img:hover{
+    scale : 1.2;
+  }
   
   .container>h2 {
     padding-inline: 25px;
@@ -106,7 +119,7 @@ nav{
   .my-container {
     width: 76%;
   }
-  
+
   @media screen and (max-width: 480px) {
 
   nav{
